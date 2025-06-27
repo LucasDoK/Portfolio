@@ -3,32 +3,126 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Site pessoal - Lucas Donadel</title>
+  <title>Site pessoal - Lucas Donadel Koerich</title>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="row mx-auto">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-    <div class="container-fluid justify-content-center">
-      <a class="navbar-brand" href="inicio.html"><strong>@lucasdonadel</strong></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#id-navbar">
-      <span class="navbar-toggler-icon"></span>
-      </button>
-        <div class="collapse show navbar-collapse flex-grow-0" id="id-navbar">
-          <ul class="navbar-nav">
-            <li class="nav-item text-center">
-            <a class="nav-link" href="sobre.html">Currículo</a>
-            </li>
-            <li class="nav-item text-center">
-            <a class="nav-link" href="portfolio.html">Portfólio</a>
+<div class="container">
+  <main>
+    <div class="row mx-auto">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container-fluid justify-content-center">
+          <a class="navbar-brand" href="https://github.com/LucasDoK"><strong>@lucasdonadel</strong></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#id-navbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse show navbar-collapse flex-grow-0" id="id-navbar">
+            <ul class="navbar-nav">
+              <li class="nav-item text-center">
+                <a class="nav-link" href="#sobre">Currículo</a>
               </li>
-          </ul>
+              <li class="nav-item text-center">
+                <a class="nav-link" href="#portfolio">Portfólio</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div style="height: 70px;"></div>
+
+      <div class="col-lg-8" id="inicio">
+  <div class="card mb-3">
+    <div class="row g-0">
+      <div class="col-md-5 text-center my-auto p-2">
+        <a href="#inicio">
+          <img src="images/FotoPortifolio.png" alt="Foto Lucas Donadel Koerich" class="rounded-circle img-fluid">
+        </a>
+      </div>
+      <div class="col-md-7 d-flex align-items-center">
+        <div class="card-body">
+          <h5 class="card-title">Lucas Donadel Koerich</h5>
+          <p class="card-text">
+            Estudante de Ciência da Computação com foco em desenvolvimento web. Apaixonado por tecnologia, programação e resolver problemas com código. Sempre buscando novos aprendizados!
+          </p>
         </div>
       </div>
-    </nav>
-    <div style="height: 70px;"></div>
+    </div>
   </div>
-    
 </div>
+
+<!-- Seção Currículo -->
+<section id="sobre" class="my-5">
+  <div class="container">
+    <h2 class="text-center mb-4">Currículo</h2>
+    <div class="row">
+      <div class="col-md-6">
+        <h4>Informações Pessoais</h4>
+        <ul>
+          <li><strong>Nome:</strong> Lucas Donadel Koerich</li>
+          <li><strong>Email:</strong> lucas@email.com</li>
+          <li><strong>Telefone:</strong> (00) 91234-5678</li>
+          <li><strong>Cidade:</strong> Sua Cidade - Brasil</li>
+        </ul>
+      </div>
+      <div class="col-md-6">
+        <h4>Formação Acadêmica</h4>
+        <p><strong>Curso:</strong> Ciência da Computação</p>
+        <p><strong>Instituição:</strong> Universidade XYZ</p>
+        <p><strong>Período:</strong> 2022 - atual</p>
+      </div>
+    </div>
+    <div class="row mt-4">
+      <div class="col">
+        <h4>Habilidades</h4>
+        <ul>
+          <li>HTML, CSS, JavaScript</li>
+          <li>Bootstrap 5</li>
+          <li>Git e GitHub</li>
+          <li>Lógica de Programação</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Seção Portfólio -->
+<section id="portfolio" class="bg-light py-5">
+  <div class="container">
+    <h2 class="text-center mb-4">Portfólio</h2>
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+      <div class="col">
+        <div class="card h-100">
+          <img src="images/projeto1.png" class="card-img-top" alt="Projeto 1">
+          <div class="card-body">
+            <h5 class="card-title">Projeto 1</h5>
+            <p class="card-text">Descrição breve do projeto. Tecnologias utilizadas e objetivo.</p>
+            <a href="#" class="btn btn-dark">Ver Projeto</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="images/projeto2.png" class="card-img-top" alt="Projeto 2">
+          <div class="card-body">
+            <h5 class="card-title">Projeto 2</h5>
+            <p class="card-text">Outro projeto realizado com HTML, CSS e JavaScript.</p>
+            <a href="#" class="btn btn-dark">Ver Projeto</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Rodapé -->
+<footer class="bg-dark text-light text-center py-4">
+  <p>&copy; 2025 Lucas Donadel Koerich. Todos os direitos reservados.</p>
+  <p>
+    <a href="https://github.com/LucasDoK" class="text-light" target="_blank">@lucasdonadel</a>
+  </p>
+</footer>
+</body>
+

@@ -1,0 +1,17 @@
+body {
+  scroll-behavior: smooth;
+  padding-top: 80px;
+}
+
+img {
+  max-width: 100%;
+}
+
+section {
+  padding-top: 40px;
+}
+
+.card-img-top {
+  object-fit: cover;
+  height: 200px;
+}

@@ -53,6 +53,11 @@ section {
 }
 
 a.link{
-  color: inherit;
+  color: white;
   text-decoration: none;
+}
+#sobre .card-body,
+#sobre .card-body li,
+#sobre .card-body a {
+  color: white;
 }
